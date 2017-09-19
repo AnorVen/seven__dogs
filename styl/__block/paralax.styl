@@ -1,0 +1,57 @@
+.paralax {
+  position absolute
+  md(display, none)
+  &__mops {
+    z-index: 10;
+    top: -297px;
+    left: 0;
+  }
+  &__boll {
+    z-index: 10;
+    top: 1180px;
+    right: 0
+    @media screen and (max-width: 1300px) {
+      z-index: -1
+    }
+    }
+  &__big_bone {
+    top: 2368px;
+    left: 0;
+    z-index 10;
+    @media screen and (max-width: 1300px){
+      left: -200px;
+
+    }
+  }
+  &__toy {
+    z-index: 10;
+    top: 4443px;
+    right: 0
+    @media screen and (max-width: 1300px){
+      z-index: -1;
+    }
+  }
+  &__Toy_circle {
+    top: 5264px;
+    left: 0;
+    z-index 11;
+    @media screen and (max-width: 1300px){left: -110px;}
+
+  }
+  &__dog {
+    bottom: 525px;
+    right: 0;
+  }
+   &__bg {
+   bottom: 530px;
+   left: 0
+   right: 0
+   z-index: 10;
+   width: 100%
+   height: 180px
+   background-image: url(../img/footer/trava.png);
+   background-position top center
+ }
+
+}
+

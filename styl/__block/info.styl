@@ -1,0 +1,49 @@
+.info{
+  height:388px
+  background: url(../img/5/info__bg.png)  no-repeat;
+  @media desktop-width{
+    margin-top: 50px
+    height: 485px;
+    background-size: cover;
+    background-position-x: center;
+
+  }
+
+  &__list{
+    padding-top: 143px;
+    display flex
+    flex-wrap nowrap;
+    margin-left 58px
+    margin-right: 58px
+    justify-content space-between
+    @media desktop-width{
+      flex-wrap wrap
+      flex-direction column;
+      padding-top 0;
+      align-items: center;
+
+    }
+  }
+  &__item{
+    width: 230px
+    height:110px;
+    border 2px dotted #41484d;
+    @media desktop-width{
+      margin-top: 30px;
+
+    }
+  }
+    &__title{
+      font-size: 68px;
+      margin-top: 5px;
+      text-align: center
+       color: #fff
+    }
+      &__text{
+        color: #ffffff;
+        text-align: center
+        margin-top: -15px;
+        font-size:15px;
+      }
+
+}

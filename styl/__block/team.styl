@@ -1,0 +1,115 @@
+.team {
+  height: 688px
+  background-color: #e8e8e8
+  padding-top: 19px;
+  @media desktop-width{
+    display: none;
+  }
+  &__title {
+    font-size: 42px;
+    color: #333333
+    text-align: center;
+
+  }
+  hr {
+    margin-top: 20px;
+  }
+  &__text {
+    margin: 0 auto
+    margin-top: 29px;
+    font-size: 22px;
+    color: #999999
+    width: 700px;
+    text-align: center
+  }
+  &__list {
+    margin-top: 66px;
+    display flex
+    flex-wrap nowrap
+    margin-left: 57px;
+    margin-right: 50px;
+    margin-bottom: 39px
+    justify-content: space-between
+
+  }
+  &__item {
+    width: 278px
+
+  }
+  &__photo {
+    width: 278px;
+    height: 307px;
+  }
+  &__name {
+    font-size: 22px;
+    color black;
+    text-align: center
+    margin-top: 8px;
+  }
+  &__itemText {
+    font-size: 18px;
+    color #999;
+    text-align: center
+    margin-top: 3px;
+  }
+  &__radio {
+    width: 73px;
+    height: 15px;
+    margin: 48px auto 0;
+    padding-left: 18px;
+  }
+}
+
+.radio {
+  vertical-align: top;
+  width: 8px;
+  height: 8px;
+  margin: 0 3px 0 0;
+}
+
+.radio + label {
+  cursor: pointer;
+}
+
+.radio:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 17px;
+}
+
+.radio:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  background: #6f6f6f;
+
+}
+
+.radio:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fe9e3f;
+  opacity: 0;
+  transition: all .2s;
+}
+
+.radio:checked + label:after {
+  opacity: 1;
+}
+
+.radio:focus + label:before {
+}

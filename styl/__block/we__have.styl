@@ -1,0 +1,126 @@
+.we_have{
+  margin-top 84px;
+  h2{
+    font-size: 42px;
+    color: #333333;
+    text-align: center
+  }
+  &__text{
+      margin: 0 auto
+      text-align: center;
+      margin-top: 25px;
+      font-size: 22px
+      color #999999;
+      max-width: 700px;
+    padding-left: 5px;
+    padding-right: 5px
+
+  }
+      hr{
+        margin-top 28px;
+      }
+}
+
+
+.works__list{
+  display flex;
+  flex-wrap nowrap;
+  width:100%;
+  justify-content left;
+  margin-top: 30px
+  padding-bottom: 80px;
+}
+
+.works__item {
+  width: 330px;
+  padding-top: 5px;
+  padding-left: 36px;
+  box-sizing: border-box;
+  border-bottom: none;
+  position: relative;
+  .photo__figure {
+    margin: 0;
+    line-height: 0;
+    position: relative;
+      .photo__img {
+      margin: 0;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      }
+    }
+
+  .photo__figcaption {
+    height: 72px;
+    padding-top: 38px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-size: 32px;
+    text-align center;
+
+  }
+}
+  .have__list{
+    display flex;
+    flex-wrap wrap;
+    justify-content: space-between;
+    margin: 50px 30px;
+    @media screen and (max-width: 1050px){
+      justify-content space-around
+    }
+
+  }
+    .have__item{
+      width: 310px;
+      height: 360px;
+      margin-bottom: 10px;
+      border-radius: 30px;
+      background-color: #ebebeb;
+      img{
+        width: 310px;
+        height: 310px;
+      }
+
+    }
+.have__text{
+  position: relative;
+  top: -32px;
+  text-align: center
+  font-size: 22px
+  color #999999;
+
+
+}
+  .have__hissen{
+    display: none
+
+  }
+.we_have__btn{
+
+  font-size: 22px;
+  color: #fff;
+  width:230px;
+  height:49px;
+  border-radius: 10px;
+  background-color: #f90;
+  box-shadow: 0 0 60px -5px rgba(255, 153, 0, 0.38);
+  margin: 0 auto;
+  display: block;
+  margin-top: -20px;
+  font-family 'Arciform Sans', 'Helvetica', 'Arial', sans-serif;
+  cursor pointer
+  &:active{
+    outline: none
+    height:51px;
+  }
+  &:focus, &:visited {
+    outline: none
+    height:51px;
+  }
+}
