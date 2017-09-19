@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js?"></script>
+</head>
+<body>
+<div class="wrapper__global">
+	<header class="header">
+		<div class="header__logo"><a href="index.html">
+			<picture>
+				<source media="(min-width: 961px)" srcset="./img/backrgound/logo1.png">
+				<source media="(max-width: 961px)" srcset="./img/backrgound/khaski-litl-logo.png">
+				<img src="./img/backrgound/logo1.png" alt="логотип">
+		</a>
+			</picture>
+
+		</div>
+		<div class="header__content">
+			<nav class="nav__list">
+				<ul class="nav__items">
+					<li class="nav__item"><a href="#we__have">Услуги</a></li>
+					<li class="nav__item"><a href="#team">Команда</a></li>
+					<li class="nav__item"><a href="#news">Новости</a></li>
+					<li class="nav__item"><a href="#footer">Контакты</a></li>
+				</ul>
+				<div class="nav__phone"><a href="tel:+88888888888">
+					<img src="./img/backrgound/phone.png" alt="телефон">
+					<span>8 888 888 88 88</span></a>
+				</div>
+
+			</nav>
+			<div class="header__hello">
+				<h1 class="visually-hidden">Лучший отель для собак. клуб для собак и их владельцев</h1>
+				<h2>Приветствуем!</h2>
+				<p>Мы Lucky Dog! И мы будем рады подружится с вашими домашними любимцами и обучить их чему-нибудь
+					новенькому.</p>
+
+			</div>
+
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+
+
+		</div>
+		<div class="mobile__menu">
+			<ul class="mobile__items">
+				<li class="mobile__item"><a href="#we__have">Услуги</a></li>
+				<li class="mobile__item"><a href="#feetback">Отзывы</a></li>
+				<li class="mobile__item"><a href="#photo">Фотографии</a></li>
+				<li class="mobile__item"><a href="#footer">Контакты</a></li>
+				<li class="mobile__item"><a href="tel:+88888888888">
+					8 888 888 88 88</a></li>
+			</ul>
+		</div>
+
+	</header>
+
+	<main class="main">
+
+
+		<section class="main__slider">
+			<div class="slider" id="viewport">
+				<ul class="slidewrapper" id="slidewrapper">
+					<li class="slide"><img src="../img/1/slider_bg.jpg"
+																 alt="2"
+																 class="slide-img"></li>
+					<li class="slide"><img src="https://hsto.org/files/ef1/3d7/97e/ef13d797e4c642c7a1d4b2b91f7ad7b3.jpg"
+																 alt="2"
+																 class="slide-img"></li>
+					<li class="slide"><img src="https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg"
+																 alt="3"
+																 class="slide-img"></li>
+					<li class="slide"><img src="https://hsto.org/files/eda/61a/3c5/eda61a3c53db408d820643998d9acd81.jpg"
+																 alt="4"
+																 class="slide-img"></li>
+
+				</ul>
+
+
+			</div>
+			<div id="prev-next-btns">
+				<div id="prev-btn" class="to_previous"><img src="./img/1/slider__btn.png" alt="слайдер"></div>
+				<div id="next-btn" class="to_next"><img src="./img/1/slider__btn.png" alt="слайдер">
+				</div>
+			</div>
+			<div class="slider__btn">
+				<div class="main__hello">
+					<h3>Добро пожаловать в Lucky Dog!</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+				</div>
+				<div class="backForm">
+					<a href="#" id="go"><span>Выбрать услугу </span>
+
+						<img src="./img/1/slide__bottom.png" alt="кнопка"></a>
+
+
+				</div>
+			</div>
+			<img class="paralax paralax__mops" src="./img/paralax/mops.png" alt="декоративный элемент">
+
+		</section>
+		<section class="we_have" id="we__have">
+			<h2>Что у нас есть</h2>
+			<hr color=" #ffd699" size="2px">
+			<p class="we_have__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+				commodo
+				consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+			<ul class="have__list">
+				<li class="have__item"><a href="#" class="have__link"><img src="./img/11/rem1.png" alt="" class="have__img">
+					<p class="have__text">Подготовка к выставкам</p>
+				</a></li>
+				<li class="have__item"><a href="#" class="have__link"><img src="./img/11/dor1.png" alt="" class="have__img">
+					<p class="have__text">Ясли</p>
+				</a></li>
+				<li class="have__item"><a href="#" class="have__link"><img src="./img/11/emi1.png" alt="" class="have__img">
+					<p class="have__text">Груминг</p>
+				</a></li>
+				<li class="have__item have__hissen"><a href="#" class="have__link"><img src="./img/11/faso1.png" alt=""
+																																								class="have__img">
+					<p class="have__text">Дрессеровка</p>
+				</a></li>
+				<li class="have__item have__hissen"><a href="#" class="have__link"><img src="./img/11/ifa1.png" alt=""
+																																								class="have__img">
+					<p class="have__text">Фитнес</p>
+				</a></li>
+				<li class="have__item have__hissen"><a href="#" class="have__link"><img src="./img/11/mif1.png" alt=""
+																																								class="have__img">
+					<p class="have__text">Гостиница</p>
+				</a></li>
+			</ul>
+
+
+			<button class="we_have__btn">Показать все услуги</button>
+		</section>
+		<section class="add_services">
+			<div class="add_services__wraper">
+				<h2 class="add_services__title">Дополнительные сервисы</h2>
+				<hr color="#fe9e3f" width="85px" align="left" size="2px">
+				<ul class="add_services__list">
+					<li class="add_services__item">
+						<img class="add_services__imgItem imgItem1" src="img/3/1.png" alt="первое приемущество">
+						<h3 class="add_services__ItemTitle">Медицинские услуги</h3>
+						<hr color="#ededed" size="2px" width="420px">
+						<p class="add_services__ItemText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+							do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li class="add_services__item">
+						<img class="add_services__imgItem imgItem2" src="img/3/2.png" alt="второе приемущество">
+						<h3 class="add_services__ItemTitle">Оздоровительные процедуры</h3>
+						<hr color="#ededed" size="2px" width="420px">
+						<p class="add_services__ItemText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+							do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+					<li class="add_services__item">
+						<img class="add_services__imgItem imgItem3" src="img/3/3.png" alt="третье приемущество">
+						<h3 class="add_services__ItemTitle">Ясли для щенков</h3>
+						<hr color="#ededed" size="2px" width="420px">
+						<p class="add_services__ItemText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+							do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+					</li>
+
+				</ul>
+			</div>
+			<img class="add_services__dogs" src="img/3/dogs.png" alt="собаки">
+
+
+		</section>
+
+
+		<!--   <section class="services" id="services">
+					 <h2 class="services__title">Все услуги</h2>
+					 <hr color="#ffd699" size="2px" width="100%">
+					 <p class="services__text">
+							 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+							 dolore magna
+							 aliqua.
+					 </p>
+					 <ul class="services__list">
+							 <li class="services__item">
+									 <img class="services__img" src="./img/4/hotel.png" alt="Личные номера">
+									 <h3 class="services__itemTitle">Личные номера</h3>
+									 <hr width="50px" size="2px" color="#ffd699">
+									 <p class="services__itemText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+											 commodo ligula eget
+											 dolor. Aenean massa. </p>
+							 </li>
+							 <li class="services__item">
+									 <img class="services__img" src="./img/4/trening.png" alt="Дрессировка">
+									 <h3 class="services__itemTitle">Дрессировка</h3>
+									 <hr width="50px" size="2px" color="#ffd699">
+									 <p class="services__itemText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+											 commodo ligula eget
+											 dolor. Aenean massa. </p>
+							 </li>
+							 <li class="services__item">
+									 <img class="services__img" src="./img/4/grooming.png" alt="Груминг">
+									 <h3 class="services__itemTitle">Груминг</h3>
+									 <hr width="50px" size="2px" color="#ffd699">
+									 <p class="services__itemText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+											 commodo ligula eget
+											 dolor. Aenean massa. </p>
+							 </li>
+							 <li class="services__item">
+									 <img class="services__img" src="./img/4/walking.png" alt="Прогулка">
+									 <h3 class="services__itemTitle">Прогулка</h3>
+									 <hr width="50px" size="2px" color="#ffd699">
+									 <p class="services__itemText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+											 commodo ligula eget
+											 dolor. Aenean massa. </p>
+							 </li>
+
+					 </ul>
+					 <button class="services__btn">Показать все услуги</button>
+
+			 </section> -->
+		<section class="info" id="info">
+			<ul class="info__list">
+				<li class="info__item">
+					<h3 class="info__title">30</h3>
+					<p class="info__text">Номеров</p>
+				</li>
+				<li class="info__item">
+					<h3 class="info__title">200+</h3>
+					<p class="info__text">Обратившихся</p>
+				</li>
+				<li class="info__item">
+					<h3 class="info__title">15</h3>
+					<p class="info__text">Профессионалов</p>
+				</li>
+			</ul>
+
+		</section>
+
+
+		<section class="photo" id="photo">
+
+			<h2 class="photo__title">Наши фотографии</h2>
+			<hr color="#fbd295" align="left" size="2px">
+			<p class="photo__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut
+				labore et dolore magna aliqua. </p>
+			<ul class="photo__list">
+				<li class="photo__item"><img src="./img/6/1.jpg" alt="фото" class="photo__img"></li>
+				<li class="photo__item"><img src="./img/6/2.jpg" alt="фото" class="photo__img"></li>
+				<li class="photo__item"><img src="./img/6/3.jpg" alt="фото" class="photo__img"></li>
+				<li class="photo__item"><img src="./img/6/4.jpg" alt="фото" class="photo__img"></li>
+				<li class="photo__item"><img src="./img/6/5.jpg" alt="фото" class="photo__img"></li>
+				<li class="photo__item"><img src="./img/6/6.jpg" alt="фото" class="photo__img"></li>
+			</ul>
+			<button class="we_have__btn desctop__hidden">Заказать услугу</button>
+
+		</section>
+
+		<section class="team" id="team">
+			<h2 class="team__title">Наша команда</h2>
+			<hr color="#fbd295" align="left" size="2px">
+			<p class="team__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua. </p>
+
+			<ul class="team__list">
+				<li class="team__item"><img src="./img/7/photo1.png" alt="Мария Семёнова" class="team__photo">
+					<h3 class="team__name">Мария Семёнова</h3>
+					<p class="team__itemText">Грумер</p>
+				</li>
+				<li class="team__item"><img src="./img/7/photo2.png" alt="Михаил Савушкин" class="team__photo">
+					<h3 class="team__name">Михаил Савушкин</h3>
+					<p class="team__itemText">Ветеринар</p>
+				</li>
+				<li class="team__item"><img src="./img/7/photo3.png" alt="Максим Сухов" class="team__photo">
+					<h3 class="team__name">Максим Сухов</h3>
+					<p class="team__itemText">Тренер</p>
+				</li>
+			</ul>
+			<div class="team__radio">
+				<input type="radio" class="radio" id="radio1" name="radio">
+				<label for="radio1"></label>
+				<input type="radio" class="radio" id="radio2" name="radio">
+				<label for="radio2"></label>
+				<input type="radio" class="radio" id="radio3" name="radio">
+				<label for="radio3"></label>
+				<input type="radio" class="radio" id="radio4" name="radio">
+				<label for="radio4"></label>
+			</div>
+
+		</section>
+
+
+		<section class="feetback" id="feetback">
+			<h2 class="feetback__title">Отзывы наших клиентов</h2>
+			<hr color="#fbd295" align="left" size="2px">
+			<p class="feetback__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</p>
+			<ul class="feetback__list">
+				<li class="feetback__item">
+					<p class="feetback__itemText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+						commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+						montes.</p>
+					<img src="./img/8/feet1.png" alt="Феофан" class="feetback__photo">
+					<p class="feetback__name">Феофан К. <span class="feetback__work">Mail.ru</span></p>
+				</li>
+				<li class="feetback__item">
+					<p class="feetback__itemText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+						commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+						montes.</p>
+					<img src="./img/8/feet2.png" alt="Леонтий" class="feetback__photo">
+					<p class="feetback__name"> Леонтий П. <span class="feetback__work">Tinkoff</span></p>
+				</li>
+				<li class="feetback__item">
+					<p class="feetback__itemText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+						commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+						montes.</p>
+					<img src="./img/8/feet3.png" alt="Васелисса" class="feetback__photo">
+					<p class="feetback__name">Васелисса Н. <span class="feetback__work">НТВ</span></p>
+				</li>
+			</ul>
+
+		</section>
+		<section class="banner">
+			<a class="banner__link" href="#">
+				<img src="./img/banner/30.jpg" alt="баннер">
+			</a>
+
+		</section>
+		<section class="news" id="news">
+			<h2 class="news__title">Новости</h2>
+			<hr width="155px" size="2px" color="#fbd295">
+			<ul class="news__list">
+				<li class="news__item">
+					<figure class="news__figure">
+						<img src="./img/9/news1.png" alt="" class="news__img">
+						<figuration class="news__figuration">
+							<p class="news__date__day">23 </p>
+							<p class="news__date__month">июн</p>
+							<h3 class="news__itemTitle">День защиты щенят</h3>
+							<p class="news__subtitle"><span class="news__autor">Animals</span> от <span
+									class="news__data__add">28 июня 2017</span></p>
+							<p class="news__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+							<a href="" class="news__more">Read more</a></figuration>
+					</figure>
+				</li>
+				<li class="news__item">
+					<figure class="news__figure">
+						<img src="./img/9/news2.png" alt="" class="news__img">
+						<figuration class="news__figuration">
+							<p class="news__date__day">23 </p>
+							<p class="news__date__month">июн</p>
+							<h3 class="news__itemTitle">У нас появились ясли</h3>
+							<p class="news__subtitle"><span class="news__autor">Animals</span> от <span
+									class="news__data__add">28 июня 2017</span></p>
+							<p class="news__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+							<a href="" class="news__more">Read more</a>
+						</figuration>
+					</figure>
+				</li>
+				<li class="news__item">
+					<figure class="news__figure">
+						<img src="./img/9/news3.png" alt="" class="news__img">
+						<figuration class="news__figuration">
+							<p class="news__date__day">23 </p>
+							<p class="news__date__month">июн</p>
+							<h3 class="news__itemTitle">Открылся спорт зал</h3>
+							<p class="news__subtitle"><span class="news__autor">Animals</span> от <span
+									class="news__data__add">28 июня 2017</span></p>
+							<p class="news__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+							<a href="" class="news__more">Read more</a>
+						</figuration>
+					</figure>
+				</li>
+			</ul>
+		</section>
+		<div class="paralax__wrap">
+
+		<img class="paralax paralax__boll" src="./img/paralax/Toy__boll_2.png" alt="декоративный элемент">
+		<img class="paralax paralax__big_bone" src="./img/paralax/big_bone.png" alt="декоративный элемент">
+		<img class="paralax paralax__toy" src="./img/paralax/toy.png" alt="декоративный элемент">
+		<img class="paralax paralax__Toy_circle" src="./img/paralax/Toy_circle.png" alt="декоративный элемент">
+
+	</div>
+	</main>
+
+	<div id="modal_form">
+		<span id="modal_close">X</span>
+		<form action="#" method="post" class="">
+			<p><label> Имя<br>
+				<span class=" "><input type="text" name="your-name" value="" size="40" class="">
+
+                    </span> </label></p>
+			<p><label> Ваш Email<br>
+				<span class=""><input type="email" name="your-email" value="" size="40" class=" ">
+
+                    </span> </label></p>
+			<p><label> Ваш телефон<br>
+				<span class=" "><input type="tel" name="tel-802" value="" size="40" class=" ">
+
+                    </span></label></p>
+			<textarea name="" id="" cols="40" rows="10" placeholder="Ваши коментарии">
+
+                </textarea>
+			<p><input type="submit" value="Отправить" class=""><span class="ajax-loader"></span></p>
+			<div class=""></div>
+		</form>
+
+
+	</div>
+	<div id="overlay"></div>
+	<img class="paralax paralax__dog" src="./img/footer/dog.png" alt="dog">
+	<div class="paralax paralax__bg"></div>
+</div>
+
+<footer class="footer" id="footer">
+	<div class="footer__wrapper">
+		<div class="korpus0">
+			<input type="radio" name="odin" checked="checked" id="vkl1"/><label for="vkl1" class="contacts__title">Контакты</label>
+			<input type="radio" name="odin" id="vkl2"/><label	for="vkl2" class="serv__title">Услуги</label>
+			<input type="radio" name="odin" id="vkl3"/><label for="vkl3" class="time__title">Посещение</label>
+			<div class="footer__contacts contacts">
+				<p class="contacts__text">Quisque rutrum. Aenean imperdiet.
+					Etiam ultricies nisi vel augue. </p>
+				<ul class="contacts__list">
+					<li class="contacts__item"><img src="./img/footer/dot.png" alt="адрес" class="contacts__img">
+						<a class="contacts__adress">Москва, р-н Аэропорт,<br>
+							8-ая улица, дом 39, офис 17</a>
+					</li>
+					<li class="contacts__item"><img src="./img/footer/phone.png" alt="телефон" class="contacts__img">
+						<a class="contacts__tel" href="">+ 7 (495) 000 00 00<br>
+							+ 7 (777) 000 00 00</a>
+					</li>
+					<li class="contacts__item"><img src="./img/footer/email.png" alt="почта" class="contacts__img">
+						<a class="contacts__email" href="">info@sitename.ru</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__serv serv">
+				<ul class="serv__list">
+					<li class="serv__item"><a href="#">Экзаминация собак</a></li>
+					<li class="serv__item"><a href="#">Программа вакцинации</a></li>
+					<li class="serv__item"><a href="#">Груминг</a></li>
+					<li class="serv__item"><a href="#">Резерв номера</a></li>
+					<li class="serv__item"><a href="#">Вызов на дом</a></li>
+				</ul>
+			</div>
+			<div class="footer__time time">
+				<table>
+					<tr>
+						<td class="time__day">Понедельник</td>
+						<td class="time__time">8:00 - 16:00</td>
+					</tr>
+					<tr>
+						<td class="time__day">Вторник</td>
+						<td class="time__time">8:00 - 16:00</td>
+					</tr>
+					<tr>
+						<td class="time__day">Среда</td>
+						<td class="time__time">12:00 - 20:00</td>
+					</tr>
+					<tr>
+						<td class="time__day">Четверг</td>
+						<td class="time__time">8:00 - 16:00</td>
+					</tr>
+					<tr>
+						<td class="time__day">Пятница</td>
+						<td class="time__time">8:00 - 16:00</td>
+					</tr>
+					<tr>
+						<td class="time__day time__last">Суббота</td>
+						<td class="time__time time__last">9:00 - 13:00</td>
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+
+	</div>
+</footer>
+<div class="copy">
+	<img class="copy__img" src="./img/footer/lucky.png" alt="lucky">
+	<a class="copy__seven" href="http://sevenc.ru/"><img src="./img/footer/2017.png" alt="seven"></a>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
